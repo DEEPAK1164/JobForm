@@ -78,7 +78,7 @@ function Form() {
   return (
     <div className='min-h-screen flex items-center justify-center bg-gray-100'>
       <div className='w-full max-w-lg bg-white shadow-lg rounded-lg p-8'>
-        <h1 className='text-2xl font-bold text-gray-800 mb-6'>Google Form</h1>
+        <h1 className='text-2xl font-bold text-gray-800 mb-6'>Application Form</h1>
         <form onSubmit={handleSubmit} className='space-y-6'>
           <p className='text-green-600'>{msg}</p>
           <div className='flex flex-col'>
